@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:wght@600;700&display=swap');
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +15,6 @@ body {
   flex-direction: column;
 }
 
-/* --- HEADER / HERO --- */
 header {
   background: #0d1117;
   border-bottom: 2px solid #c0392b;
@@ -27,7 +24,6 @@ header {
   overflow: hidden;
 }
 
-/* linhas decorativas de fundo */
 header::before,
 header::after {
   content: '';
@@ -58,7 +54,6 @@ header h1 {
   margin-bottom: .75rem;
 }
 
-/* linha decorativa sob o h1 */
 header h1::after {
   content: '';
   display: block;
@@ -76,7 +71,6 @@ header .subtitulo {
   position: relative;
 }
 
-/* --- NAV --- */
 nav {
   background: #0d1117;
   padding: .8rem 2rem;
@@ -109,12 +103,10 @@ nav a.ativo {
   background: #c0392b;
 }
 
-/* --- ÁREA CENTRAL --- */
 main-placeholder {
   display: block;
 }
 
-/* cards de destaque gerados via CSS puro */
 .cards-area {
   max-width: 800px;
   margin: 3rem auto;
@@ -157,7 +149,6 @@ main-placeholder {
   line-height: 1.6;
 }
 
-/* --- FOOTER --- */
 footer {
   text-align: center;
   padding: 1.75rem;
